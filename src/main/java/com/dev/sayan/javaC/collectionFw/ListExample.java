@@ -39,5 +39,11 @@ public class ListExample {
         listOfInteger.remove(3);
         System.out.println(listOfInteger);
         System.out.println("size of the list is : "+ listOfInteger.size());
+
+
+        listOfInteger.add(1,45);
+        System.out.println(listOfInteger);
+        System.out.println("Updated size of the list is : "+listOfInteger.size());
+
     }
 }
